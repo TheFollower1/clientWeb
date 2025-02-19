@@ -1,0 +1,147 @@
+.festivals {
+  margin-top: 10px;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d33662;
+  border-radius: 10px;
+  width: 1250px;
+  height: 600px;
+  overflow-y: auto;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 1761px) {
+
+  .festivals {
+    width: 1000px;
+    height: 500px;
+  }
+  
+}
+
+@media (max-width: 1500px) {
+
+  .festivals {
+    width: 800px;
+    height: 400px;
+  }
+  
+}
+
+.section2-title {
+  font-size: 60px; 
+  color: #ffffff;
+  padding: 0;
+  margin-bottom: 20px;
+  margin-top: 450px;
+}
+
+@media (min-width: 1501px )  and (max-width: 1760px) {
+
+  .section2-title {
+    margin-top: 330px;
+    font-size: 50px; 
+  }
+  
+}
+
+@media (max-width: 1500px) {
+
+  .section2-title {
+    margin-top: 220px;
+    font-size: 40px;
+  }
+  
+}
+
+.festival-pictures {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 100px
+}
+
+.festival-images img,
+.festival-images  {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.75);
+  position: relative;
+}
+
+@media (max-width: 1761px) {
+
+  .festival-images img,
+  .festival-images {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.75);
+    position: relative;
+  }
+  
+}
+
+@media (max-width: 1500px) {
+
+  .festival-images img,
+  .festival-images {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.75);
+    position: relative;
+  }
+  
+}
+
+.tooltips-festivals {
+  position: absolute;
+  bottom: 60px;
+  right: 60px;
+  color: white;
+  opacity: 0;
+  font-size: 60px;
+  cursor: pointer;
+}
+
+.tooltips-festivals:hover {
+  opacity: 1;
+  transition: opacity 0.30s;
+  background-color: rgba(82, 81, 81, 0.6);
+ 
+}
+
+@media (min-width: 1501px )  and (max-width: 1760px) {
+
+  .tooltips-festivals {
+    position: absolute;
+    bottom: 45px;
+    right: 55px;
+    color: white;
+    opacity: 0;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  
+}
+
+@media (max-width: 1500px) {
+
+  .tooltips-festivals {
+    position: absolute;
+    bottom: 25px;
+    right: 40px;
+    color: white;
+    opacity: 0;
+    font-size: 40px;
+    cursor: pointer;
+  }
+  
+}

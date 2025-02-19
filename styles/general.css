@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family:Roboto, Arial;
+  padding-top: 100px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
